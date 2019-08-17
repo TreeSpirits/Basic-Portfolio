@@ -37,6 +37,16 @@ footer {
     font-size: 10px;
 }
 
+a{
+    text-decoration:none;
+    color:#777777;
+}
+
+a:hover{
+    color:#4aaaa5;
+    text-decoration: underline;
+}
+
 nav {
     padding:9px;
     float: right;
