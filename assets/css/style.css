@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url('../images/background.png');
+    background-repeat: repeat;
+}
+
+h1, h2 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding:20px;
+}
+
+header, .container {
+    background-color: #ffffff;
+}
+
+header {
+    clear: both;
+    display: block;
+    overflow: auto;
+}
+
+footer {
+    background-color: #666666;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    color: white;
+}
+
+nav {
+    padding:10px;
+    float: right;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    margin-right: 20px;
+}
+
+.container, header {
+    width: 906px;
+    margin: 0 auto;
+}
+
+.main-logo {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    padding:20px;
+    margin: 0px 20px 0px 20px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.container{
+    margin-top:20px;
+    border: 1px solid #dddddd;
+}
+
+.main-content {
+   
+    padding: 20px;
+}
+
+.about-me-image {
+    float: left;
+    margin: 10px 25px 10px 0px;
+}
+
+.about-me-text {
+    margin: 0px;
+    line-height: 2;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
