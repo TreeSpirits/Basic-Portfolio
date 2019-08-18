@@ -12,7 +12,7 @@ h1, h2 {
     color: #4aaaa5;
 }
 
-header, .container {
+header, .main-content {
     background-color: #ffffff;
 }
 
@@ -81,7 +81,7 @@ button {
     margin: 0px;
 }
 
-.container, .header {
+.main-content, .header {
     width: 960px;
     margin: 0 auto;
 }
@@ -102,7 +102,7 @@ button {
     padding: 5px;
 }
 
-.container {
+.main-content {
     margin-top: 20px;
     margin-bottom:100px;
     border: 1px solid #dddddd;
@@ -115,7 +115,7 @@ button {
     border-bottom: 2px solid #cccccc;
 }
 
-.main-content {
+.main-body {
     padding: 25px 25px 25px 25px;
 }
 
