@@ -3,15 +3,13 @@ body {
     color: #777777;
     background-image: url('../images/background.png');
     background-repeat: repeat;
-    margin-top:0px;
+    margin: 0px;
+    padding:0px;
 }
 
 h1, h2 {
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: #4aaaa5;
-    
-    /* padding:20px; */
-    /* margin-top:0px; */
 }
 
 header, .container {
@@ -37,18 +35,18 @@ footer {
     font-size: 10px;
 }
 
-a{
-    text-decoration:none;
-    color:#777777;
+a {
+    text-decoration: none;
+    color: #777777;
 }
 
-a:hover{
-    color:#4aaaa5;
+a:hover {
+    color: #4aaaa5;
     text-decoration: underline;
 }
 
 nav {
-    padding:9px;
+    padding: 9px;
     float: right;
 }
 
@@ -60,11 +58,31 @@ nav ul {
 nav li {
     float: left;
     padding: 0px 20px 0px 20px;
-    border-left:1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    border: 1px solid #dddddd;
+    margin-top: 8px;
+}
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    padding: 8px 25px;
+    color: #ffffff;
+}
+
+.top-margin-0 {
+    margin: 0px;
 }
 
 .container, .header {
-    width: 906px;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -72,7 +90,7 @@ nav li {
     background-color: #4aaaa5;
     color: #ffffff;
     float: left;
-    padding:20px;
+    padding: 20px;
     margin: 0px 20px 0px 0px;
 }
 
@@ -81,33 +99,33 @@ nav li {
     bottom: 0px;
     width: 100%;
     text-align: center;
-    padding:5px;
+    padding: 5px;
 }
 
-.container{
-    margin-top:20px;
+.container {
+    margin-top: 20px;
+    margin-bottom:100px;
     border: 1px solid #dddddd;
-    padding-top: 15px;
+    padding-top: 15px;    
 }
 
-.main-header{
+.main-header {
     padding: 20px 0px 20px 0px;
     margin: 0px 25px 0px 25px;
     border-bottom: 2px solid #cccccc;
 }
 
 .main-content {
-   
-    padding: 15px 25px 25px 25px;
+    padding: 25px 25px 25px 25px;
 }
 
 .about-me-image {
     float: left;
-    margin: 10px 25px 10px 0px;
+    margin: 0px 25px 10px 0px;
 }
 
 .about-me-text {
-    margin: 0px;
+    margin: -10px 0px 0px 0px;
     line-height: 2;
 }
 
@@ -117,10 +135,38 @@ nav li {
     clear: both;
 }
 
-.first-menu-item{
-    border:none;
+.first-menu-item {
+    border: none;
 }
 
-.last-menu-item{
-    padding-right:0px;
+.last-menu-item {
+    padding-right: 0px;
+}
+
+.row-portfolio{
+    margin:0px 0px 25px 0px;
+}
+
+.row-portfolio::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.col-portfolio {
+    margin-right:30px;
+    float: left;
+    position: relative;
+}
+
+.portfolio-label{
+    font-size: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    bottom: 10px;
+    position: absolute;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
